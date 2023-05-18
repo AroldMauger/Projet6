@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    gap : 57px;
+    padding: 0 2rem;
+    color:#FF6060;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 55px;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color:#FF6060;
+}
+
+.navigation a.active {
+    text-decoration: underline;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation_logo {
+    margin-right: auto;
+}
+
+@media screen and (width <= 768px) { 
+    .navigation {
+        text-transform: uppercase;
+        font-size: 12px;
+        gap : 20px;
+    }
+}

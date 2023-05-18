@@ -1,0 +1,28 @@
+.cards {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:40px;
+    align-items: center;
+    padding-top: 56px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+@media screen and (width <= 860px) { 
+.cards {
+    justify-content: center;
+    background-color: white;
+    padding:0px;
+    display: block;
+    
+}
+ }
+
+ .cards > * {
+    width:100%;
+    max-width : 20rem;
+ }
+    
