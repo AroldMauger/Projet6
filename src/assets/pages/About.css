@@ -1,0 +1,14 @@
+.about_container {
+    padding-inline : 109px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+@media screen and (width <= 768px) { 
+    .about_container {
+        padding-inline : 0px;
+
+    }
+}
