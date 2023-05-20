@@ -1,0 +1,17 @@
+.owner_details {
+    display: flex;
+    gap : 10px;
+}
+.owner_details > h3 {
+    margin-block: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 400;
+}
+.photo_owner img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
