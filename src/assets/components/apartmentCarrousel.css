@@ -1,0 +1,79 @@
+
+
+@media screen and (width <= 768px) { 
+    .apartment_image {
+        height : 255px;
+        object-fit: cover;
+    }
+}
+
+.carrousel_apartments  {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.carrousel_image_container {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+}
+
+.carrousel_image_container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    position: absolute;
+    inset:0;
+    object-fit: cover;
+    opacity : 0;
+    transition : opacity 0.5s ease-in-out;
+}
+
+img.show {
+    opacity: 1;
+}
+
+.button_previous {
+    position: absolute;
+    width : 5rem;
+    background-color: transparent;
+    cursor: pointer;
+    border-width: 0;
+    color:white;
+    font-size: 4rem;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.button_previous:active {
+    outline: none;
+}
+
+
+.button_next {
+    position: absolute;
+    right:0;
+    width : 5rem;
+    background-color: transparent;
+    cursor: pointer;
+    border-width: 0;
+    color:white;
+     font-size: 4rem;
+    margin-right: 35px;
+    margin-top: 50px;
+}
+
+.button_next:active {
+    outline: none;
+}
+
+.slide_counter {
+    color: white;
+    position: absolute;
+    width:100%;
+    text-align: center;
+    bottom : 0;
+    font-weight: 500;
+}
