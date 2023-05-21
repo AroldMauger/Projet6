@@ -1,0 +1,32 @@
+.collapse_header{
+    background-color: #FF6060;
+    color:white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-block: 13px;
+    padding-inline: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.collapse_content {
+    margin-top: 0px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 40px 20px 50px 20px;
+    position: relative;
+    z-index: -1;
+    top : -0,3rem;
+    color : #FF6060;
+}
+
+.drop {
+    width: 24px;
+    height: 13px;
+}
+
+.apartment_description {
+    flex-basis: 50%;
+}

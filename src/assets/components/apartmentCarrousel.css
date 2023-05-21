@@ -46,6 +46,8 @@ img.show {
     font-size: 4rem;
     margin-left: 25px;
     margin-top: 50px;
+    cursor : pointer;
+
 }
 .button_previous:active {
     outline: none;
@@ -63,6 +65,7 @@ img.show {
      font-size: 4rem;
     margin-right: 35px;
     margin-top: 50px;
+    cursor : pointer;
 }
 
 .button_next:active {
