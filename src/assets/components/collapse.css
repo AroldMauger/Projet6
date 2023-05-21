@@ -25,6 +25,7 @@
 .drop {
     width: 24px;
     height: 13px;
+    cursor: pointer;
 }
 
 .apartment_description {
