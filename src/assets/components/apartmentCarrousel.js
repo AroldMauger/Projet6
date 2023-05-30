@@ -1,6 +1,10 @@
 import "./apartmentCarrousel.css"
 import { useState } from "react"
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+
 ApartmentCarrousel.propTypes = {
     pictures: PropTypes.array.isRequired
   };
@@ -39,10 +43,10 @@ const moveToNext = () => {
           </div>
           
           <div className="button_previous" onClick={moveToPrevious}>
-            <i className="fas fa-chevron-left"></i>
+            <FontAwesomeIcon icon={faChevronLeft} />
           </div>
           <div className="button_next" onClick={moveToNext}>
-            <i className="fas fa-chevron-right"></i>
+            <FontAwesomeIcon icon={faChevronRight} />
           </div>
 
         </div>  
