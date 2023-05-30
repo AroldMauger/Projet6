@@ -26,6 +26,7 @@ function ApartmentPage() {
     })
     .catch(console.error)
 }
+
 if (selectedApartment == null) return <div>Loading...</div>;
 
     return (
