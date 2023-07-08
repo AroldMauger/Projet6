@@ -24,6 +24,7 @@ function ApartmentPage() {
         const apartment = apartments.find((apartment) => apartment.id === location.state.apartmentId);
         setSelectedApartment(apartment);
     })
+
     .catch(console.error)
 }
 
